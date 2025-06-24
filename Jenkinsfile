@@ -1,9 +1,8 @@
-// This is a Declarative Pipeline, written in Groovy syntax
+
 
 pipeline {
-    // Here, we tell Jenkins to find any available agent with the 'linux' label
     agent {
-        label 'ubuntu agent nodejs'
+        label 'ubuntu'
     }
 
     stages {
